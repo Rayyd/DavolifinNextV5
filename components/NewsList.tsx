@@ -1,4 +1,4 @@
-import { getNews } from '@/lib/news'
+import NewsList from '@/components/NewsList'
 export default async function NewsList({ locale }: { locale: 'fr'|'nl'|'en' }) {
   const news = await getNews(locale)
   return (
