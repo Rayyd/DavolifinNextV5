@@ -1,3 +1,5 @@
+import Footer from '@/components/Footer'
+
 export default function Footer(){
   return (
     <footer className="border-t py-10">
