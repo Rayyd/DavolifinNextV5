@@ -1,7 +1,5 @@
 'use client'
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import NewsList from '@/components/NewsList'
 
 export default function Header({ locale }: { locale: 'fr'|'nl'|'en' }){
   return (
